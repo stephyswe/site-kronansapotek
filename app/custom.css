@@ -1,0 +1,114 @@
+.jSxApR {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0px;
+  z-index: 2;
+  background: rgb(251, 248, 245);
+  position: absolute;
+  transform: translateX(-200%);
+}
+
+// content-bottom
+
+.fawONg {
+  font-family: FilsonPro, Arial, sans-serif;
+  color: rgb(40, 40, 40);
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 140%;
+  margin-bottom: 0px;
+}
+
+.fawONg {
+  font-family: FilsonPro, Arial, sans-serif;
+  color: rgb(40, 40, 40);
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 140%;
+  margin-bottom: 0px;
+}
+
+.bvPhgT {
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-family: FilsonProBook, Arial, sans-serif;
+  text-align: center;
+  font-weight: 600;
+  padding: 5px;
+  font-size: 1.4rem;
+  height: 75px;
+  width: 75px;
+}
+
+@media screen and (min-width: 1024px) {
+  .zgdLu {
+    grid-auto-columns: calc(
+      (2 / var(--maxAllowedColumns) * 100%) -
+        (var(--grid-gap) * (1 - 2 / var(--maxAllowedColumns)))
+    );
+    grid-auto-flow: column;
+    grid-template-columns: unset;
+  }
+}
+@media screen and (min-width: 768px) {
+  .zgdLu {
+    grid-auto-columns: calc(
+      (3 / var(--maxAllowedColumns) * 100%) -
+        (var(--grid-gap) * (1 - 3 / var(--maxAllowedColumns)))
+    );
+    grid-auto-flow: column;
+    grid-template-columns: unset;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .zgdLu {
+    grid-auto-columns: calc(
+      (4 / var(--maxAllowedColumns) * 100%) -
+        (var(--grid-gap) * (1 - 4 / var(--maxAllowedColumns)))
+    );
+    grid-auto-flow: column;
+    grid-template-columns: unset;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .zgdLu {
+    --maxAllowedColumns: 6;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .zgdLu {
+    --maxAllowedColumns: 10;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .zgdLu {
+    --grid-gap: 20px;
+    gap: var(--grid-gap);
+  }
+}
+
+.zgdLu {
+  display: grid;
+  --grid-gap: 10px;
+  gap: var(--grid-gap);
+  --maxAllowedColumns: 4;
+  grid-auto-columns: calc(
+    (2 / var(--maxAllowedColumns) * 100%) -
+      (var(--grid-gap) * (1 - 2 / var(--maxAllowedColumns)))
+  );
+  grid-auto-flow: column;
+  grid-template-columns: unset;
+}

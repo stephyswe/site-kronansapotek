@@ -1,9 +1,13 @@
-// prettier.config.js
 module.exports = {
-  bracketSpacing: true,
-  semi: true,
-  trailingComma: "all",
-  printWidth: 80,
-  tabWidth: 2,
-  plugins: [require("prettier-plugin-tailwindcss")],
+  importOrder: [
+    "^@core/(.*)$",
+    "<THIRD_PARTY_MODULES>",
+    "^@/(.*)$",
+    "^@/app/(.*)$",
+    "^@/components/(.*)$",
+    "^@/libs/(.*)$",
+    "^[./]",
+  ],
+  importOrderSeparation: true,
+  importOrderSortSpecifiers: true,
 };
