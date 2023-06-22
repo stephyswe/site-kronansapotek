@@ -1,4 +1,3 @@
-import Modal from "@/components/shared/modal";
 import {
   useState,
   Dispatch,
@@ -7,6 +6,7 @@ import {
   useMemo,
 } from "react";
 import Image from "next/image";
+import Modal from "@/components/(deprecated)/shared/modal";
 
 const DemoModal = ({
   showDemoModal,
@@ -53,6 +53,6 @@ export function useDemoModal() {
 
   return useMemo(
     () => ({ setShowDemoModal, DemoModal: DemoModalCallback }),
-    [setShowDemoModal, DemoModalCallback],
+    [setShowDemoModal, DemoModalCallback]
   );
 }

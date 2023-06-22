@@ -1,11 +1,11 @@
-import Card from "@/components/home/card";
+import Card from "@/components/(deprecated)/home/card";
 import Balancer from "react-wrap-balancer";
 import { DEPLOY_URL } from "@/lib/constants";
-import { Github, Twitter } from "@/components/shared/icons";
-import WebVitals from "@/components/home/web-vitals";
-import ComponentGrid from "@/components/home/component-grid";
+import WebVitals from "@/components/(deprecated)/home/web-vitals";
+import ComponentGrid from "@/components/(deprecated)/home/component-grid";
 import Image from "next/image";
 import { nFormatter } from "@/lib/utils";
+import { Twitter, Github } from "lucide-react";
 
 export default async function Home() {
   const { stargazers_count: stars } = await fetch(
