@@ -1,63 +1,10 @@
 "use client";
 
-import ContentItem from "@/app/(site)/components/content-item";
+import { HeroButton } from "@/app/(site)/components/hero/hero-button";
+import HeroItem from "@/app/(site)/components/hero/hero-item";
 import { useState } from "react";
 
-const SvgArrowLeft = () => (
-  <svg
-    stroke="currentColor"
-    fill="none"
-    strokeWidth={2}
-    viewBox="0 0 24 24"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    className="sc-hLBbgP jbaWzw"
-    height={24}
-    width={24}
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <line x1={19} y1={12} x2={5} y2={12} />
-    <polyline points="12 19 5 12 12 5" />
-  </svg>
-);
-
-const SvgArrowRight = () => (
-  <svg
-    stroke="currentColor"
-    fill="none"
-    strokeWidth={2}
-    viewBox="0 0 24 24"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    className="sc-hLBbgP jbaWzw"
-    height={24}
-    width={24}
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <line x1={5} y1={12} x2={19} y2={12} />
-    <polyline points="12 5 19 12 12 19" />
-  </svg>
-);
-
-const ContentButton = ({ Icon, title = "Nästa", ...rest }: any) => {
-  return (
-    <button aria-label="Nästa kampanj" className="sc-iBYQkv bgpZmg" {...rest}>
-      {title === "Nästa" ? (
-        <>
-          <span className="hidden md:flex">{title}</span>
-          <SvgArrowRight />
-        </>
-      ) : (
-        <>
-          <SvgArrowLeft />
-          <span className="hidden md:flex">{title}</span>
-        </>
-      )}
-    </button>
-  );
-};
-
-const Content = ({ data }: any) => {
+const Hero = ({ data }: any) => {
   const maxIndex = data.length - 1;
   const [isClick, setIsClick] = useState(0);
   const getNextIndex = (
@@ -103,14 +50,14 @@ const Content = ({ data }: any) => {
                   transition: "all 2 ease",
                 }}
               >
-                <ContentItem key={item.id} {...item} />
+                <HeroItem key={item.id} {...item} />
               </a>
             ))}
           </div>
         </div>
       </div>
       <div className="sc-i6rw15-1 kxDzAb">
-        <ContentButton
+        <HeroButton
           title="Föregående"
           aria-label="Föregående kampanj"
           onClick={() => onClick({ prev: true })}
@@ -130,10 +77,10 @@ const Content = ({ data }: any) => {
             />
           </div>
         </div>
-        <ContentButton aria-label="Nästa kampanj" onClick={onClick} />
+        <HeroButton aria-label="Nästa kampanj" onClick={onClick} />
       </div>
     </div>
   );
 };
 
-export default Content;
+export default Hero;

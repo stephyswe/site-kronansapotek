@@ -1,9 +1,5 @@
-import { Analytics } from "@vercel/analytics/react";
-import cx from "classnames";
-import { sfPro, inter } from "./fonts";
-import Nav from "@/components/layout/nav";
-import Footer from "@/components/layout/footer";
 import { Suspense } from "react";
+import Nav from "@/app/nav";
 
 import "./globals.css";
 import "./common.css";
@@ -36,13 +32,21 @@ export default async function RootLayout({
         <div id="kronan-modal-root" className="sc-ckEbSK ldHTBG"></div>
         <div id="kronan-sidebar-root" className="sc-ckEbSK ldHTBG"></div>
         <Suspense fallback="...">
-          {/* @ts-expect-error Server Component */}
-          {/*  <Nav /> */}
+          <div data-theme="default">
+            <div className="gatsby-focus-wrapper">
+              <button className="sc-5race9-0 jSxApR">
+                <span className="sc-5race9-1 fSWhXl">Hoppa till sök</span>
+              </button>
+              <button className="sc-5race9-0 jSxApR">
+                <span className="sc-5race9-1 fSWhXl">Hoppa till innehåll</span>
+              </button>
+              <Nav />
+              <main>{children}</main>
+              {/* <Footer /> */}
+              {/* <Analytics /> */}
+            </div>
+          </div>
         </Suspense>
-
-        <main>{children}</main>
-        {/* <Footer /> */}
-        {/* <Analytics /> */}
       </body>
     </html>
   );

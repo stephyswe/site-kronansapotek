@@ -19,6 +19,57 @@ const Nav = () => {
 
 export default Nav;
 
+const SvgRecept = () => (
+  <svg
+    stroke="currentColor"
+    fill="currentColor"
+    strokeWidth={0}
+    viewBox="0 0 30 29"
+    style={{ color: "#47645a" }}
+    className="sc-hLBbgP jbaWzw"
+    height="24px"
+    width="24px"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M7.27734 8.64709L12.3168 2.71934C13.5574 1.26001 15.7407 1.06902 17.2158 2.29077L18.1318 3.04938C19.6341 4.29358 19.8294 6.52578 18.5659 8.01193L13.5849 13.871L7.27734 8.64709Z"
+      fill="currentColor"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M13.585 13.8711L8.54554 19.7988C7.3049 21.2582 5.12165 21.4492 3.64647 20.2274L2.73049 19.4688C1.22821 18.2246 1.03293 15.9924 2.29636 14.5063L7.27741 8.64717L13.585 13.8711Z"
+      fill="currentColor"
+      fillOpacity="0.5"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M16.846 18.7679L20.5567 25.3027C21.521 27.0007 23.6882 27.5814 25.3721 26.5929L26.2177 26.0965C27.8678 25.1279 28.4342 23.0137 27.4894 21.3499L23.7289 14.7275L16.846 18.7679Z"
+      fill="currentColor"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M23.729 14.7275L20.0182 8.19263C19.054 6.49461 16.8868 5.91398 15.2028 6.90251L14.3573 7.39887C12.7072 8.36749 12.1408 10.4817 13.0856 12.1455L16.8461 18.7679L23.729 14.7275Z"
+      fill="currentColor"
+      fillOpacity="0.5"
+    />
+  </svg>
+);
+
+const TopLink = ({ Icon, title, href }: any) => (
+  <a
+    className="sc-bBABsx eHSqcr flex flex-col items-center gap-0 font-medium text-black hover:underline md:flex-row md:gap-2 lg:underline-offset-[10px]"
+    href={href}
+  >
+    {Icon}
+    {title}
+  </a>
+);
+
 const TopLinks = ({ isScroll }: { isScroll: boolean }) => (
   <div
     className={cn(
@@ -32,76 +83,26 @@ const TopLinks = ({ isScroll }: { isScroll: boolean }) => (
           <button className="cursor-pointer border-none bg-none flex flex-col items-center gap-0 font-medium text-black hover:underline md:flex-row md:gap-2 lg:underline-offset-[10px]">
             Produkter
           </button>
-          <a
-            className="sc-bBABsx eHSqcr flex flex-col items-center gap-0 font-medium text-black hover:underline md:flex-row md:gap-2 lg:underline-offset-[10px]"
-            href="/erbjudanden/"
-          >
-            Erbjudanden
-          </a>
-          <a
-            className="sc-bBABsx eHSqcr flex flex-col items-center gap-0 font-medium text-black hover:underline md:flex-row md:gap-2 lg:underline-offset-[10px]"
+          <TopLink title="Erbjudanden" href="/erbjudanden/" />
+          <TopLink
+            title="Logga in på Mina recept"
             href="/recept/logga-in/"
-          >
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              strokeWidth={0}
-              viewBox="0 0 30 29"
-              style={{ color: "#47645a" }}
-              className="sc-hLBbgP jbaWzw"
-              height="24px"
-              width="24px"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M7.27734 8.64709L12.3168 2.71934C13.5574 1.26001 15.7407 1.06902 17.2158 2.29077L18.1318 3.04938C19.6341 4.29358 19.8294 6.52578 18.5659 8.01193L13.5849 13.871L7.27734 8.64709Z"
-                fill="currentColor"
-              />
-              <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M13.585 13.8711L8.54554 19.7988C7.3049 21.2582 5.12165 21.4492 3.64647 20.2274L2.73049 19.4688C1.22821 18.2246 1.03293 15.9924 2.29636 14.5063L7.27741 8.64717L13.585 13.8711Z"
-                fill="currentColor"
-                fillOpacity="0.5"
-              />
-              <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M16.846 18.7679L20.5567 25.3027C21.521 27.0007 23.6882 27.5814 25.3721 26.5929L26.2177 26.0965C27.8678 25.1279 28.4342 23.0137 27.4894 21.3499L23.7289 14.7275L16.846 18.7679Z"
-                fill="currentColor"
-              />
-              <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M23.729 14.7275L20.0182 8.19263C19.054 6.49461 16.8868 5.91398 15.2028 6.90251L14.3573 7.39887C12.7072 8.36749 12.1408 10.4817 13.0856 12.1455L16.8461 18.7679L23.729 14.7275Z"
-                fill="currentColor"
-                fillOpacity="0.5"
-              />
-            </svg>
-            Logga in på Mina recept
-          </a>
+            Icon={<SvgRecept />}
+          />
         </div>
         <div className="flex gap-7">
-          <a
-            className="sc-bBABsx eHSqcr flex flex-col items-center gap-0 font-medium text-black hover:underline md:flex-row md:gap-2 lg:underline-offset-[10px]"
+          <TopLink
+            title="Hitta apotek"
             href="/hitta-apotek/"
-          >
-            Hitta apotek
-          </a>
-          <a
-            className="sc-bBABsx eHSqcr flex flex-col items-center gap-0 font-medium text-black hover:underline md:flex-row md:gap-2 lg:underline-offset-[10px]"
+          />
+           <TopLink
+            title="Tjänster"
             href="/tjanster/"
-          >
-            Tjänster
-          </a>
-          <a
-            className="sc-bBABsx eHSqcr flex flex-col items-center gap-0 font-medium text-black hover:underline md:flex-row md:gap-2 lg:underline-offset-[10px]"
+          />
+          <TopLink
+            title="Tips &amp; råd"
             href="/tipsochrad/"
-          >
-            Tips &amp; råd
-          </a>
+          />
         </div>
       </div>
       <div className="block md:hidden">
