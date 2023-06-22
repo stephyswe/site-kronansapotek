@@ -23,7 +23,7 @@ const TopLinks = ({ isScroll }: { isScroll: boolean }) => (
   <div
     className={cn(
       "flex bg-background py-3 shadow-[rgba(63,63,68,0.1)] md:bg-white md:py-5 md:shadow-sm",
-      isScroll ? "hidden" : "flex"
+      isScroll ? "invisible" : "visible flex"
     )}
   >
     <div className="content-container">
@@ -284,7 +284,7 @@ const Banner = ({ isScroll }: { isScroll: boolean }) => {
       aria-hidden={isScroll ? "true" : "false"}
       className={cn(
         "bg-primary hidden text-white md:flex",
-        isScroll ? "h-0 opacity-50" : "h-10 opacity-100"
+        isScroll ? "invisible h-0" : "visible h-10"
       )}
       style={{
         transition: "height 0.2s ease-in-out, opacity 0.5s ease-in-out",

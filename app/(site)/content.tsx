@@ -58,6 +58,7 @@ const ContentButton = ({ Icon, title = "Nästa", ...rest }: any) => {
 };
 
 const Content = ({ data }: any) => {
+  const maxIndex = data.length - 1;
   const [isClick, setIsClick] = useState(0);
   const getNextIndex = (
     currentIndex: number,
@@ -73,7 +74,6 @@ const Content = ({ data }: any) => {
 
   const onClick = ({ prev }: any) => {
     setIsClick((currentIsClick: number) => {
-      const maxIndex = data.length - 1;
       const nextIndex = getNextIndex(currentIsClick, prev, maxIndex);
       return nextIndex;
     });
@@ -115,7 +115,9 @@ const Content = ({ data }: any) => {
           aria-label="Föregående kampanj"
           onClick={() => onClick({ prev: true })}
         />
-        <p className="sr-only">`Kampanj ${isClick} av 9</p>
+        <p className="sr-only">
+          `Kampanj ${isClick} av {maxIndex}
+        </p>
         <div
           aria-live="polite"
           aria-controls="carousel"
