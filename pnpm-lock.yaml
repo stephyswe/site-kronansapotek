@@ -17,6 +17,9 @@ dependencies:
   '@radix-ui/react-tooltip':
     specifier: ^1.0.2
     version: 1.0.5(@types/react@18.0.26)(react-dom@18.2.0)(react@18.2.0)
+  '@types/he':
+    specifier: ^1.2.0
+    version: 1.2.0
   '@types/node':
     specifier: 18.11.18
     version: 18.11.18
@@ -47,6 +50,9 @@ dependencies:
   framer-motion:
     specifier: ^8.4.2
     version: 8.5.5(react-dom@18.2.0)(react@18.2.0)
+  he:
+    specifier: ^1.2.0
+    version: 1.2.0
   lucide-react:
     specifier: 0.105.0-alpha.4
     version: 0.105.0-alpha.4(react@18.2.0)
@@ -786,6 +792,10 @@ packages:
     resolution: {integrity: sha512-wLEm0QvaoawEDoTRwzTXp4b4jpwiJDvR5KMnFnVodm3scufTlBOWRD6N1OBf9TZMhjlNsSfcO5V+7AF4+Vy+9g==}
     dependencies:
       '@types/unist': 2.0.6
+    dev: false
+
+  /@types/he@1.2.0:
+    resolution: {integrity: sha512-uH2smqTN4uGReAiKedIVzoLUAXIYLBTbSofhx3hbNqj74Ua6KqFsLYszduTrLCMEAEAozF73DbGi/SC1bzQq4g==}
     dev: false
 
   /@types/json5@0.0.29:
@@ -2091,6 +2101,11 @@ packages:
 
   /hast-util-whitespace@2.0.1:
     resolution: {integrity: sha512-nAxA0v8+vXSBDt3AnRUNjyRIQ0rD+ntpbAp4LnPkumc5M9yUbSMa4XDU9Q6etY4f1Wp4bNgvc1yjiZtsTTrSng==}
+    dev: false
+
+  /he@1.2.0:
+    resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
+    hasBin: true
     dev: false
 
   /hey-listen@1.0.8:

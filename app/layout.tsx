@@ -32,7 +32,7 @@ export default async function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={cx(sfPro.variable, inter.variable)}>
+      <body>
         <div id="kronan-modal-root" className="sc-ckEbSK ldHTBG"></div>
         <div id="kronan-sidebar-root" className="sc-ckEbSK ldHTBG"></div>
         <Suspense fallback="...">

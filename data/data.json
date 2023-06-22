@@ -1,0 +1,78 @@
+{
+  "slider": {
+    "data": [
+      {
+        "tag": "Eucerin",
+        "title": "Effektiva och skonsamma solskydd",
+        "subtitle": "30% vid köp av 2 Eucerin solskydd t.o.m. 11 juli. Rabatten gäller både online och i butik, men priserna kan skilja sig åt. Gäller så länge lagret räcker. ",
+        "href": "/erbjudanden/eucerin-sol/",
+        "price": "Köp <span class=\"_big\">2</span> få <span class=\"_big\">30%</span>",
+        "picture": "<picture><source media=\"screen and (max-width: 600px)\" srcset=\"https://images.ctfassets.net/azr0vzx7gzjb/ohz0QnTHSjZ6TlDW2jacR/305538942b51afbba56ee75ce53d7144/2023_Banners_K7_1000x1000px_Eucerin-sol.png?fm=webp&w=120&q=60, https://images.ctfassets.net/azr0vzx7gzjb/ohz0QnTHSjZ6TlDW2jacR/305538942b51afbba56ee75ce53d7144/2023_Banners_K7_1000x1000px_Eucerin-sol.png?fm=webp&w=240&q=60 2x, https://images.ctfassets.net/azr0vzx7gzjb/ohz0QnTHSjZ6TlDW2jacR/305538942b51afbba56ee75ce53d7144/2023_Banners_K7_1000x1000px_Eucerin-sol.png?fm=webp&w=360&q=60 3x\" type=\"image/webp\"/><source srcset=\"https://images.ctfassets.net/azr0vzx7gzjb/ohz0QnTHSjZ6TlDW2jacR/305538942b51afbba56ee75ce53d7144/2023_Banners_K7_1000x1000px_Eucerin-sol.png?fm=webp&w=300&q=60, https://images.ctfassets.net/azr0vzx7gzjb/ohz0QnTHSjZ6TlDW2jacR/305538942b51afbba56ee75ce53d7144/2023_Banners_K7_1000x1000px_Eucerin-sol.png?fm=webp&w=600&q=60 2x, https://images.ctfassets.net/azr0vzx7gzjb/ohz0QnTHSjZ6TlDW2jacR/305538942b51afbba56ee75ce53d7144/2023_Banners_K7_1000x1000px_Eucerin-sol.png?fm=webp&w=900&q=60 3x\" type=\"image/webp\"/><img src=\"https://images.ctfassets.net/azr0vzx7gzjb/ohz0QnTHSjZ6TlDW2jacR/305538942b51afbba56ee75ce53d7144/2023_Banners_K7_1000x1000px_Eucerin-sol.png?w=300&q=60\"/></picture>"
+      },
+      {
+        "tag": "La Roche-Posay, Vichy & CeraVe",
+        "title": "Noga utvald ansiktsvård",
+        "subtitle": "20% på utvalt från La Roche-Posay, Vichy & CeraVe t.o.m. 11 juli. Gäller både online och i fysiska apotek, men priserna kan skilja sig åt. Gäller så länge lagret räcker.",
+        "href": "/erbjudanden/lrp-vichy-cerave/",
+        "price": "<span class=\"_big\">20%</span>",
+        "picture": "<picture><source media=\"screen and (max-width: 600px)\" srcset=\"https://images.ctfassets.net/azr0vzx7gzjb/7maJ0UPKpI6yRbvcZ8bPjj/806e1e3abde55f31b5affdaf12a0b1b7/2023_Banners_K7_1000x1000px_Vichy__LRP___Cerave.png?fm=webp&w=120&q=60, https://images.ctfassets.net/azr0vzx7gzjb/7maJ0UPKpI6yRbvcZ8bPjj/806e1e3abde55f31b5affdaf12a0b1b7/2023_Banners_K7_1000x1000px_Vichy__LRP___Cerave.png?fm=webp&w=240&q=60 2x, https://images.ctfassets.net/azr0vzx7gzjb/7maJ0UPKpI6yRbvcZ8bPjj/806e1e3abde55f31b5affdaf12a0b1b7/2023_Banners_K7_1000x1000px_Vichy__LRP___Cerave.png?fm=webp&w=360&q=60 3x\" type=\"image/webp\"/><source srcset=\"https://images.ctfassets.net/azr0vzx7gzjb/7maJ0UPKpI6yRbvcZ8bPjj/806e1e3abde55f31b5affdaf12a0b1b7/2023_Banners_K7_1000x1000px_Vichy__LRP___Cerave.png?fm=webp&w=300&q=60, https://images.ctfassets.net/azr0vzx7gzjb/7maJ0UPKpI6yRbvcZ8bPjj/806e1e3abde55f31b5affdaf12a0b1b7/2023_Banners_K7_1000x1000px_Vichy__LRP___Cerave.png?fm=webp&w=600&q=60 2x, https://images.ctfassets.net/azr0vzx7gzjb/7maJ0UPKpI6yRbvcZ8bPjj/806e1e3abde55f31b5affdaf12a0b1b7/2023_Banners_K7_1000x1000px_Vichy__LRP___Cerave.png?fm=webp&w=900&q=60 3x\" type=\"image/webp\"/><img src=\"https://images.ctfassets.net/azr0vzx7gzjb/7maJ0UPKpI6yRbvcZ8bPjj/806e1e3abde55f31b5affdaf12a0b1b7/2023_Banners_K7_1000x1000px_Vichy__LRP___Cerave.png?w=300&q=60\"/></picture>"
+      },
+      {
+        "tag": "Cetaphil",
+        "title": "För torr och känslig hy",
+        "subtitle": "25% på allt från Cetaphil t.o.m. 11 juli. Rabatten gäller både online och i butik, men priserna kan skilja sig åt. Gäller så länge lagret räcker. ",
+        "href": "/erbjudanden/cetaphil/",
+        "price": "<span class=\"_big\">25%</span>",
+        "picture": "<picture><source media=\"screen and (max-width: 600px)\" srcset=\"https://images.ctfassets.net/azr0vzx7gzjb/2nh6Y8Zz0EsNtJAk6rndne/923091b33153424ab43a816522221375/2023_Banners_K7_1000x1000px_Cetaphil.png?fm=webp&w=120&q=60, https://images.ctfassets.net/azr0vzx7gzjb/2nh6Y8Zz0EsNtJAk6rndne/923091b33153424ab43a816522221375/2023_Banners_K7_1000x1000px_Cetaphil.png?fm=webp&w=240&q=60 2x, https://images.ctfassets.net/azr0vzx7gzjb/2nh6Y8Zz0EsNtJAk6rndne/923091b33153424ab43a816522221375/2023_Banners_K7_1000x1000px_Cetaphil.png?fm=webp&w=360&q=60 3x\" type=\"image/webp\"/><source srcset=\"https://images.ctfassets.net/azr0vzx7gzjb/2nh6Y8Zz0EsNtJAk6rndne/923091b33153424ab43a816522221375/2023_Banners_K7_1000x1000px_Cetaphil.png?fm=webp&w=300&q=60, https://images.ctfassets.net/azr0vzx7gzjb/2nh6Y8Zz0EsNtJAk6rndne/923091b33153424ab43a816522221375/2023_Banners_K7_1000x1000px_Cetaphil.png?fm=webp&w=600&q=60 2x, https://images.ctfassets.net/azr0vzx7gzjb/2nh6Y8Zz0EsNtJAk6rndne/923091b33153424ab43a816522221375/2023_Banners_K7_1000x1000px_Cetaphil.png?fm=webp&w=900&q=60 3x\" type=\"image/webp\"/><img src=\"https://images.ctfassets.net/azr0vzx7gzjb/2nh6Y8Zz0EsNtJAk6rndne/923091b33153424ab43a816522221375/2023_Banners_K7_1000x1000px_Cetaphil.png?w=300&q=60\"/></picture>"
+      },
+      {
+        "tag": "RFSU",
+        "title": "För bättre intimhälsa och sexliv",
+        "subtitle": "25% på allt från RFSU t.o.m. 11 juli. Rabatten gäller både online och i butik, men priserna kan skilja sig åt. Gäller så länge lagret räcker. ",
+        "href": "/erbjudanden/rfsu/",
+        "price": "<span class=\"_big\">25%</span>",
+        "picture": "<picture><source media=\"screen and (max-width: 600px)\" srcset=\"https://images.ctfassets.net/azr0vzx7gzjb/353XlvW78y3CLofpTRcJZf/c209c50818c95935684456c2129e7632/2023_Banners_K7_1000x1000px_RFSU.png?fm=webp&w=120&q=60, https://images.ctfassets.net/azr0vzx7gzjb/353XlvW78y3CLofpTRcJZf/c209c50818c95935684456c2129e7632/2023_Banners_K7_1000x1000px_RFSU.png?fm=webp&w=240&q=60 2x, https://images.ctfassets.net/azr0vzx7gzjb/353XlvW78y3CLofpTRcJZf/c209c50818c95935684456c2129e7632/2023_Banners_K7_1000x1000px_RFSU.png?fm=webp&w=360&q=60 3x\" type=\"image/webp\"/><source srcset=\"https://images.ctfassets.net/azr0vzx7gzjb/353XlvW78y3CLofpTRcJZf/c209c50818c95935684456c2129e7632/2023_Banners_K7_1000x1000px_RFSU.png?fm=webp&w=300&q=60, https://images.ctfassets.net/azr0vzx7gzjb/353XlvW78y3CLofpTRcJZf/c209c50818c95935684456c2129e7632/2023_Banners_K7_1000x1000px_RFSU.png?fm=webp&w=600&q=60 2x, https://images.ctfassets.net/azr0vzx7gzjb/353XlvW78y3CLofpTRcJZf/c209c50818c95935684456c2129e7632/2023_Banners_K7_1000x1000px_RFSU.png?fm=webp&w=900&q=60 3x\" type=\"image/webp\"/><img src=\"https://images.ctfassets.net/azr0vzx7gzjb/353XlvW78y3CLofpTRcJZf/c209c50818c95935684456c2129e7632/2023_Banners_K7_1000x1000px_RFSU.png?w=300&q=60\"/></picture>"
+      },
+      {
+        "tag": "No7",
+        "title": "Nyhet hos Kronans Apotek!",
+        "subtitle": "25% på allt från No7 t.o.m. 11 juli. Rabatten gäller både online och i butik, men priserna kan skilja sig åt. Gäller så länge lagret räcker. ",
+        "href": "/erbjudanden/no7/",
+        "price": "<span class=\"_big\">25%</span>",
+        "picture": "<picture><source media=\"screen and (max-width: 600px)\" srcset=\"https://images.ctfassets.net/azr0vzx7gzjb/1fy1b1RjFPnWI6Fmi9eY9J/b3cfcb519579dd9de973c180789c8499/2023_Banners_K7_1000x1000px_NO7.png?fm=webp&w=120&q=60, https://images.ctfassets.net/azr0vzx7gzjb/1fy1b1RjFPnWI6Fmi9eY9J/b3cfcb519579dd9de973c180789c8499/2023_Banners_K7_1000x1000px_NO7.png?fm=webp&w=240&q=60 2x, https://images.ctfassets.net/azr0vzx7gzjb/1fy1b1RjFPnWI6Fmi9eY9J/b3cfcb519579dd9de973c180789c8499/2023_Banners_K7_1000x1000px_NO7.png?fm=webp&w=360&q=60 3x\" type=\"image/webp\"/><source srcset=\"https://images.ctfassets.net/azr0vzx7gzjb/1fy1b1RjFPnWI6Fmi9eY9J/b3cfcb519579dd9de973c180789c8499/2023_Banners_K7_1000x1000px_NO7.png?fm=webp&w=300&q=60, https://images.ctfassets.net/azr0vzx7gzjb/1fy1b1RjFPnWI6Fmi9eY9J/b3cfcb519579dd9de973c180789c8499/2023_Banners_K7_1000x1000px_NO7.png?fm=webp&w=600&q=60 2x, https://images.ctfassets.net/azr0vzx7gzjb/1fy1b1RjFPnWI6Fmi9eY9J/b3cfcb519579dd9de973c180789c8499/2023_Banners_K7_1000x1000px_NO7.png?fm=webp&w=900&q=60 3x\" type=\"image/webp\"/><img src=\"https://images.ctfassets.net/azr0vzx7gzjb/1fy1b1RjFPnWI6Fmi9eY9J/b3cfcb519579dd9de973c180789c8499/2023_Banners_K7_1000x1000px_NO7.png?w=300&q=60\"/></picture>"
+      },
+      {
+        "tag": "Solvård",
+        "title": "Njut säkert av solen",
+        "subtitle": "Gäller t.o.m. 11 juli. Rabatten gäller både online och i fysiska apotek, men priserna kan skilja sig åt. Gäller så länge lagret räcker.",
+        "href": "/erbjudanden/2-for-30-sol/",
+        "price": "Köp <span class=\"_big\">2</span> få <span class=\"_big\">30%</span>",
+        "picture": "<picture><source media=\"screen and (max-width: 600px)\" srcset=\"https://images.ctfassets.net/azr0vzx7gzjb/2gEslPAWiiJRdIjzjSi3cf/4ddcba55b7e51e31b529c67945cf702a/2023_Banners_K7_1000x1000px_sol2.png?fm=webp&w=120&q=60, https://images.ctfassets.net/azr0vzx7gzjb/2gEslPAWiiJRdIjzjSi3cf/4ddcba55b7e51e31b529c67945cf702a/2023_Banners_K7_1000x1000px_sol2.png?fm=webp&w=240&q=60 2x, https://images.ctfassets.net/azr0vzx7gzjb/2gEslPAWiiJRdIjzjSi3cf/4ddcba55b7e51e31b529c67945cf702a/2023_Banners_K7_1000x1000px_sol2.png?fm=webp&w=360&q=60 3x\" type=\"image/webp\"/><source srcset=\"https://images.ctfassets.net/azr0vzx7gzjb/2gEslPAWiiJRdIjzjSi3cf/4ddcba55b7e51e31b529c67945cf702a/2023_Banners_K7_1000x1000px_sol2.png?fm=webp&w=300&q=60, https://images.ctfassets.net/azr0vzx7gzjb/2gEslPAWiiJRdIjzjSi3cf/4ddcba55b7e51e31b529c67945cf702a/2023_Banners_K7_1000x1000px_sol2.png?fm=webp&w=600&q=60 2x, https://images.ctfassets.net/azr0vzx7gzjb/2gEslPAWiiJRdIjzjSi3cf/4ddcba55b7e51e31b529c67945cf702a/2023_Banners_K7_1000x1000px_sol2.png?fm=webp&w=900&q=60 3x\" type=\"image/webp\"/><img src=\"https://images.ctfassets.net/azr0vzx7gzjb/2gEslPAWiiJRdIjzjSi3cf/4ddcba55b7e51e31b529c67945cf702a/2023_Banners_K7_1000x1000px_sol2.png?w=300&q=60\"/></picture>"
+      },
+      {
+        "tag": "Djurvård",
+        "title": "För ett aktivt djurliv",
+        "subtitle": "Upp till 20% på utvalt inom djurvård t.o.m. 11 juli. Rabatten gäller både online och i butik, men priserna kan skilja sig åt. Gäller så länge lagret räcker. ",
+        "href": "/erbjudanden/djurvard/",
+        "price": "Upp till <span class=\"_big\">20%</span>",
+        "picture": "<picture><source media=\"screen and (max-width: 600px)\" srcset=\"https://images.ctfassets.net/azr0vzx7gzjb/4jkJVxYPD9ZuYxmzgjo7Uo/e5f01ec3b2f523715d971ca37d8a97e6/2023_Banners_K7_1000x1000px_Samlingssida_Djur.png?fm=webp&w=120&q=60, https://images.ctfassets.net/azr0vzx7gzjb/4jkJVxYPD9ZuYxmzgjo7Uo/e5f01ec3b2f523715d971ca37d8a97e6/2023_Banners_K7_1000x1000px_Samlingssida_Djur.png?fm=webp&w=240&q=60 2x, https://images.ctfassets.net/azr0vzx7gzjb/4jkJVxYPD9ZuYxmzgjo7Uo/e5f01ec3b2f523715d971ca37d8a97e6/2023_Banners_K7_1000x1000px_Samlingssida_Djur.png?fm=webp&w=360&q=60 3x\" type=\"image/webp\"/><source srcset=\"https://images.ctfassets.net/azr0vzx7gzjb/4jkJVxYPD9ZuYxmzgjo7Uo/e5f01ec3b2f523715d971ca37d8a97e6/2023_Banners_K7_1000x1000px_Samlingssida_Djur.png?fm=webp&w=300&q=60, https://images.ctfassets.net/azr0vzx7gzjb/4jkJVxYPD9ZuYxmzgjo7Uo/e5f01ec3b2f523715d971ca37d8a97e6/2023_Banners_K7_1000x1000px_Samlingssida_Djur.png?fm=webp&w=600&q=60 2x, https://images.ctfassets.net/azr0vzx7gzjb/4jkJVxYPD9ZuYxmzgjo7Uo/e5f01ec3b2f523715d971ca37d8a97e6/2023_Banners_K7_1000x1000px_Samlingssida_Djur.png?fm=webp&w=900&q=60 3x\" type=\"image/webp\"/><img src=\"https://images.ctfassets.net/azr0vzx7gzjb/4jkJVxYPD9ZuYxmzgjo7Uo/e5f01ec3b2f523715d971ca37d8a97e6/2023_Banners_K7_1000x1000px_Samlingssida_Djur.png?w=300&q=60\"/></picture>"
+      },
+      {
+        "tag": "Munvård",
+        "title": "En renare känsla varje dag",
+        "subtitle": "Upp till 25% på utvalt inom munvård t.o.m. 11 juli. Rabatten gäller både online och i butik, men priserna kan skilja sig åt. Gäller så länge lagret räcker. ",
+        "href": "/erbjudanden/mun-tand-/",
+        "price": "Upp till <span class=\"_big\">25%</span>",
+        "picture": "<picture><source media=\"screen and (max-width: 600px)\" srcset=\"https://images.ctfassets.net/azr0vzx7gzjb/ItrTaEWDaUJB2MQ5jFXUJ/3f16a183875a5fcd2c5825ba176c6a29/2023_Banners_K7_1000x1000px_Samlingssida_Mun___Ta__nder.png?fm=webp&w=120&q=60, https://images.ctfassets.net/azr0vzx7gzjb/ItrTaEWDaUJB2MQ5jFXUJ/3f16a183875a5fcd2c5825ba176c6a29/2023_Banners_K7_1000x1000px_Samlingssida_Mun___Ta__nder.png?fm=webp&w=240&q=60 2x, https://images.ctfassets.net/azr0vzx7gzjb/ItrTaEWDaUJB2MQ5jFXUJ/3f16a183875a5fcd2c5825ba176c6a29/2023_Banners_K7_1000x1000px_Samlingssida_Mun___Ta__nder.png?fm=webp&w=360&q=60 3x\" type=\"image/webp\"/><source srcset=\"https://images.ctfassets.net/azr0vzx7gzjb/ItrTaEWDaUJB2MQ5jFXUJ/3f16a183875a5fcd2c5825ba176c6a29/2023_Banners_K7_1000x1000px_Samlingssida_Mun___Ta__nder.png?fm=webp&w=300&q=60, https://images.ctfassets.net/azr0vzx7gzjb/ItrTaEWDaUJB2MQ5jFXUJ/3f16a183875a5fcd2c5825ba176c6a29/2023_Banners_K7_1000x1000px_Samlingssida_Mun___Ta__nder.png?fm=webp&w=600&q=60 2x, https://images.ctfassets.net/azr0vzx7gzjb/ItrTaEWDaUJB2MQ5jFXUJ/3f16a183875a5fcd2c5825ba176c6a29/2023_Banners_K7_1000x1000px_Samlingssida_Mun___Ta__nder.png?fm=webp&w=900&q=60 3x\" type=\"image/webp\"/><img src=\"https://images.ctfassets.net/azr0vzx7gzjb/ItrTaEWDaUJB2MQ5jFXUJ/3f16a183875a5fcd2c5825ba176c6a29/2023_Banners_K7_1000x1000px_Samlingssida_Mun___Ta__nder.png?w=300&q=60\"/></picture>"
+      },
+      {
+        "tag": "Kronans Apotek",
+        "title": "Fyll på ditt semesterapotek",
+        "subtitle": "3 för 2 på utvalt från vårt eget varumärke t.o.m. 11 juli. Billigaste på köpet. Rabatten gäller både online och i butik, men priserna kan skilja sig åt. Gäller så länge lagret räcker. ",
+        "href": "/erbjudanden/kronans/",
+        "price": "<span class=\"_big\">3</span> för <span class=\"_big\">2</span>",
+        "picture": "<picture><source media=\"screen and (max-width: 600px)\" srcset=\"https://images.ctfassets.net/azr0vzx7gzjb/6JufEFsfMB47Wo8kbeEPQo/6ed1bfcde792434c2593939b0071f01e/2023_Banners_K7_1000x1000px_EMV_Kronans.png?fm=webp&w=120&q=60, https://images.ctfassets.net/azr0vzx7gzjb/6JufEFsfMB47Wo8kbeEPQo/6ed1bfcde792434c2593939b0071f01e/2023_Banners_K7_1000x1000px_EMV_Kronans.png?fm=webp&w=240&q=60 2x, https://images.ctfassets.net/azr0vzx7gzjb/6JufEFsfMB47Wo8kbeEPQo/6ed1bfcde792434c2593939b0071f01e/2023_Banners_K7_1000x1000px_EMV_Kronans.png?fm=webp&w=360&q=60 3x\" type=\"image/webp\"/><source srcset=\"https://images.ctfassets.net/azr0vzx7gzjb/6JufEFsfMB47Wo8kbeEPQo/6ed1bfcde792434c2593939b0071f01e/2023_Banners_K7_1000x1000px_EMV_Kronans.png?fm=webp&w=300&q=60, https://images.ctfassets.net/azr0vzx7gzjb/6JufEFsfMB47Wo8kbeEPQo/6ed1bfcde792434c2593939b0071f01e/2023_Banners_K7_1000x1000px_EMV_Kronans.png?fm=webp&w=600&q=60 2x, https://images.ctfassets.net/azr0vzx7gzjb/6JufEFsfMB47Wo8kbeEPQo/6ed1bfcde792434c2593939b0071f01e/2023_Banners_K7_1000x1000px_EMV_Kronans.png?fm=webp&w=900&q=60 3x\" type=\"image/webp\"/><img src=\"https://images.ctfassets.net/azr0vzx7gzjb/6JufEFsfMB47Wo8kbeEPQo/6ed1bfcde792434c2593939b0071f01e/2023_Banners_K7_1000x1000px_EMV_Kronans.png?w=300&q=60\"/></picture>"
+      }
+    ]
+  }
+}
